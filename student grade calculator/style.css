@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: darkcyan;
+  color: #222;
+}
+
+/* Main section */
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+}
+
+/* Calculator */
+.container {
+  width: 400px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #333;
+}
+
+/* Button */
+button {
+  width: 100%;
+  margin-top: 25px;
+  padding: 12px;
+
+  border: none;
+  border-radius: 6px;
+
+  background-color: #222;
+  color: white;
+
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+/* Result */
+.result {
+  width: 350px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.result h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.result p {
+  margin: 15px 0;
+  font-size: 17px;
+}
+
+.result span {
+  font-weight: bold;
+}
