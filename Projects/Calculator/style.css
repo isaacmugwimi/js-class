@@ -115,7 +115,7 @@ button:active {
   grid-row: span 2;
   height: auto;
 }
-
+/*  */
 .equals:hover {
   background: #4ade80;
 }
